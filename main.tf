@@ -1,7 +1,7 @@
 /* Make a Docker Container with Ansible running in it */
 
 provider "docker" {
-  host = "tcp://localhost:2376"
+  host = "tcp://localhost"
 }
 
 /*

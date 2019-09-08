@@ -5,10 +5,6 @@ resource "docker_container" "ansible" {
   name  = "ansible"
   image = "ansible:latest"
   restart = "always"
-  ports = {
-    internal = "22"
-    external = "22"
-  }
 }
 
 # Create a "Stable Ansible Container (SAC)"
